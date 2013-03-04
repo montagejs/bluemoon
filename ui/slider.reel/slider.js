@@ -1,21 +1,21 @@
 /*global WebKitPoint */
 /**
-    @module "montage/ui/bluemoon/slider.reel"
+    @module "montage/ui//slider.reel"
     @requires montage/core/core
     @requires montage/ui/dom
     @requires montage/ui/component
     @requires montage/core/geometry/point
 */
 var Montage = require("montage").Montage,
-    Component = require("ui/component").Component,
-    dom = require("ui/dom"),
-    Point = require("core/geometry/point").Point;
+    Component = require("montage/ui/component").Component,
+    dom = require("montage/ui/dom"),
+    Point = require("montage/core/geometry/point").Point;
 
 /**
- @class module:"montage/ui/bluemoon/slider.reel".Slider
+ @class module:"montage/ui//slider.reel".Slider
  @extends module:montage/ui/component.Component
  */
-exports.Slider = Montage.create(Component,/** @lends module:"montage/ui/bluemoon/slider.reel".Slider# */ {
+exports.Slider = Montage.create(Component,/** @lends module:"montage/ui//slider.reel".Slider# */ {
     // Extra elements for rendering
 
     _bghl: {

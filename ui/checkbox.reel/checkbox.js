@@ -1,15 +1,15 @@
 /**
-	@module "montage/ui/bluemoon/checkbox.reel"
+	@module "montage/ui//checkbox.reel"
     @requires montage/core/core
     @requires montage/ui/component
 */
 var Montage = require("montage").Montage,
-    Component = require("ui/component").Component;
+    Component = require("montage/ui/component").Component;
 /**
-    @class module:"montage/ui/bluemoon/checkbox.reel".Checkbox
+    @class module:"montage/ui//checkbox.reel".Checkbox
     @extends module:montage/ui/component.Component
 */
-exports.Checkbox = Montage.create(Component,/** @lends "module:montage/ui/bluemoon/checkbox.reel".Checkbox# */ {
+exports.Checkbox = Montage.create(Component,/** @lends "module:montage/ui//checkbox.reel".Checkbox# */ {
     // Configuration
     /**
         The distance (squared) beyond which a touch will be considered.

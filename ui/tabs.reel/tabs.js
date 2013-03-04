@@ -1,5 +1,5 @@
 /**
-	@module "montage/ui/bluemoon/tabs.reel"
+	@module "montage/ui//tabs.reel"
     @requires montage/core/core
     @requires montage/ui/component
     @requires "montage/ui/repetition.reel"
@@ -9,20 +9,20 @@
     @requires montage/core/uuid
 */
 var Montage = require("montage").Montage,
-    Bindings = require("core/bindings").Bindings,
-    Component = require("ui/component").Component,
-    Repetition = require("ui/repetition.reel").Repetition,
-    Substitution = require("ui/substitution.reel").Substitution,
-    DynamicText = require("ui/dynamic-text.reel").DynamicText,
-    Image = require("ui/image.reel").Image,
-    Uuid = require("core/uuid").Uuid,
-    observeProperty = require("frb/observers").observeProperty;
+    Bindings = require("montage/core/bindings").Bindings,
+    Component = require("montage/ui/component").Component,
+    Repetition = require("montage/ui/repetition.reel").Repetition,
+    Substitution = require("montage/ui/substitution.reel").Substitution,
+    DynamicText = require("montage/ui/dynamic-text.reel").DynamicText,
+    Image = require("montage/ui/image.reel").Image,
+    Uuid = require("montage/core/uuid").Uuid,
+    observeProperty = require("montage/frb/observers").observeProperty;
 
 /**
-    @class module:"montage/ui/bluemoon/tabs.reel".Tabs
+    @class module:"montage/ui//tabs.reel".Tabs
 */
 
-var Tabs = exports.Tabs = Montage.create(Component, /** @lends module:"montage/ui/bluemoon/tabs.reel".Tabs# */ {
+var Tabs = exports.Tabs = Montage.create(Component, /** @lends module:"montage/ui//tabs.reel".Tabs# */ {
 
     _repetition: {
         value: null

@@ -1,17 +1,17 @@
 /**
-	@module "montage/ui/bluemoon/button-group.reel"
+	@module "montage/ui//button-group.reel"
     @requires montage/core/core
     @requires "montage/ui/component-group.reel"
 */
 var Montage = require("montage").Montage,
-    ComponentGroup = require("ui/component-group.reel").ComponentGroup;
+    ComponentGroup = require("montage/ui/component-group.reel").ComponentGroup;
 
 /**
- @class module:"montage/ui/bluemoon/button-group.reel".ButtonGroup
+ @class module:"montage/ui//button-group.reel".ButtonGroup
  @classdesc A group of buttons, displayed "pill" style.
  @extends module:montage/ui/component.Component
  */
-var ButtonGroup = exports.ButtonGroup = Montage.create(ComponentGroup, /** @lends module:"montage/ui/bluemoon/button-group.reel".ButtonGroup */ {
+var ButtonGroup = exports.ButtonGroup = Montage.create(ComponentGroup, /** @lends module:"montage/ui//button-group.reel".ButtonGroup */ {
 /**
     Description TODO
     @type {Boolean}

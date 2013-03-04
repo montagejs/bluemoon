@@ -1,17 +1,17 @@
 /**
-	@module "montage/ui/bluemoon/button.reel"
+	@module "montage/ui//button.reel"
     @requires montage/core/core
     @requires montage/ui/component
 */
 var Montage = require("montage").Montage,
-    Component = require("ui/component").Component;
+    Component = require("montage/ui/component").Component;
 
 /**
- @class module:"montage/ui/bluemoon/button.reel".Button
+ @class module:"montage/ui//button.reel".Button
  @classdesc Button component implementation. Turns any div element into a multi-state labeled button.
  @extends module:montage/ui/component.Component
  */
-exports.Button = Montage.create(Component,/** @lends module:"montage/ui/bluemoon/button.reel".Button# */ {
+exports.Button = Montage.create(Component,/** @lends module:"montage/ui//button.reel".Button# */ {
 
 /**
   Description TODO
@@ -717,9 +717,9 @@ exports.Button = Montage.create(Component,/** @lends module:"montage/ui/bluemoon
 
 }, module);
 /**
-    @class module:"montage/ui/bluemoon/button.reel".ToggleButton
+    @class module:"montage/ui//button.reel".ToggleButton
 */
-exports.ToggleButton = Montage.create(exports.Button,/** @lends module:"montage/ui/bluemoon/button.reel".ToggleButton# */ {
+exports.ToggleButton = Montage.create(exports.Button,/** @lends module:"montage/ui//button.reel".ToggleButton# */ {
 /**
   Description TODO
   @private

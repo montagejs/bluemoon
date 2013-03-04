@@ -1,15 +1,15 @@
 /**
-	@module "montage/ui/bluemoon/toggle.reel"
+	@module "montage/ui//toggle.reel"
     @requires montage/core/core
     @requires montage/ui/component
 */
 var Montage = require("montage").Montage,
-    Component = require("ui/component").Component;
+    Component = require("montage/ui/component").Component;
 /**
- @class module:"montage/ui/bluemoon/toggle.reel".Toggle
+ @class module:"montage/ui//toggle.reel".Toggle
  @extends module:montage/ui/component.Component
  */
-var Toggle = exports.Toggle = Montage.create(Component, /** @lends module:"montage/ui/bluemoon/toggle.reel".Toggle# */ {
+var Toggle = exports.Toggle = Montage.create(Component, /** @lends module:"montage/ui//toggle.reel".Toggle# */ {
 
     _value: {
         enumerable: false,

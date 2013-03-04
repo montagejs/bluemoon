@@ -1,15 +1,15 @@
 /**
-	@module "montage/ui/bluemoon/progress.reel"
+	@module "montage/ui//progress.reel"
     @requires montage/core/core
     @requires montage/ui/component
 */
 var Montage = require("montage").Montage,
-    Component = require("ui/component").Component;
+    Component = require("montage/ui/component").Component;
 /**
-    @class module:"montage/ui/bluemoon/progress.reel".Progress
+    @class module:"montage/ui//progress.reel".Progress
     @extends module:montage/ui/component.Component
 */
-exports.Progress = Montage.create(Component,/** @lends module:"montage/ui/bluemoon/progress.reel".Progress# */ {
+exports.Progress = Montage.create(Component,/** @lends module:"montage/ui//progress.reel".Progress# */ {
 /**
   Description TODO
   @private
