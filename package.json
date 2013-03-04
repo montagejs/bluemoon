@@ -1,0 +1,16 @@
+{
+    "name": "bluemoon",
+    "version": "0.1.0",
+    "dependencies": {
+        "montage": "*"
+    },
+    "devDependencies": {
+        "montage-testing": "~0.1.2"
+    },
+    "exclude": [
+        "overview.html",
+        "overview",
+        "run-tests.html",
+        "test"
+    ]
+}
