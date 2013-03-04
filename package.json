@@ -2,7 +2,7 @@
     "name": "bluemoon",
     "version": "0.1.0",
     "dependencies": {
-        "montage": "*"
+        "montage": "~0.13.0"
     },
     "devDependencies": {
         "montage-testing": "~0.1.2"
