@@ -8,7 +8,7 @@
 */
 var Montage = require("montage").Montage,
     Component = require("montage/ui/component").Component,
-    dom = require("montage/ui/dom"),
+    dom = require("montage/core/dom"),
     Point = require("montage/core/geometry/point").Point;
 
 /**
